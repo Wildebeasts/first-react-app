@@ -1,5 +1,5 @@
 
-# My fist react app
+# My first react app
 
 Very early in development.
 
