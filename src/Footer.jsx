@@ -3,6 +3,8 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaPaperPlane } from "react-icons/fa";
+import { PiPaperPlaneTiltFill } from "react-icons/pi";
 
 function Footer() {
 
@@ -38,6 +40,12 @@ function Footer() {
             </div>
             <div className="Card5">
                 <p className="SmallHead">Stay Updated</p>
+                <form>
+                    <input type="text" placeholder="Enter Your Email" />
+                    <button type="submit">
+                    <PiPaperPlaneTiltFill/>
+                    </button>
+                </form>
             </div>
         </footer>
     );

@@ -62,7 +62,7 @@ button {
   right: 0;
   width: 100%;
   height: 367px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
 }
 
@@ -75,40 +75,70 @@ svg {
 .Card1 {
   width: 249px;
   height: 237px;
-  font-weight: 400;
   color: #616161;
 }
 
 .Card2 {
   width: 104px;
   height: 229px;
-  font-weight: 400;
   color: #616161;
 }
 
 .Card3 {
   width: 93px;
   height: 189px;
-  font-weight: 400;
   color: #616161;
 }
 
 .Card4 {
   width: 180px;
   height: 151px;
-  font-weight: 400;
   color: #616161;
 }
 
 .Card5 {
   width: 292px;
   height: 90px;
-  font-weight: 400;
   color: #616161;
 }
 
+.Card5 form {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card5 button {
+  width: 46px;
+  height: 45px;
+  margin-left: 6px;
+  border-radius: 0px;
+  background-color:#E89F71;
+}
+
+.Card5 svg {
+  translate: 0 2px;
+  transform: scale(1.4);
+  padding-right: 20px;
+}
+
+input[type=text] {
+  width: 242px;
+  height: 45px;
+  background-color: #F4F5F7;
+  border: none;
+}
+
+::placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #828282;
+}
+
 .SmallHead {
-  font-weight: 700;
+  font-weight: 600;
   font-size: 24px;
   color: #000000;
   margin-bottom: -1px;
