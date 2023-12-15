@@ -1,8 +1,11 @@
 @import url("./Gilroy Font/stylesheet.css");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: 'Gilroy';
-  line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -31,6 +34,8 @@ a:hover {
 
 body {
   margin: 0;
+  width: 1440px;
+  height: 4643px;
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
@@ -53,76 +58,6 @@ button {
   transition: border-color 0.25s;
 }
 
-.Footer {
-  position: absolute;
-  display: flex;
-  justify-content: space-around;
-  bottom: 0;
-  left: 1px;
-  right: 0;
-  width: 100%;
-  height: 367px;
-  font-weight: 500;
-  font-size: 16px;
-}
-
-svg {
-  translate: 0 2px;
-  transform: scale(1.25);
-  padding-right: 8px;
-}
-
-.Card1 {
-  width: 249px;
-  height: 237px;
-  color: #616161;
-}
-
-.Card2 {
-  width: 104px;
-  height: 229px;
-  color: #616161;
-}
-
-.Card3 {
-  width: 93px;
-  height: 189px;
-  color: #616161;
-}
-
-.Card4 {
-  width: 180px;
-  height: 151px;
-  color: #616161;
-}
-
-.Card5 {
-  width: 292px;
-  height: 90px;
-  color: #616161;
-}
-
-.Card5 form {
-  margin-top: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Card5 button {
-  width: 46px;
-  height: 45px;
-  margin-left: 6px;
-  border-radius: 0px;
-  background-color:#E89F71;
-}
-
-.Card5 svg {
-  translate: 0 2px;
-  transform: scale(1.4);
-  padding-right: 20px;
-}
-
 input[type=text] {
   width: 242px;
   height: 45px;
@@ -132,19 +67,6 @@ input[type=text] {
   text-indent: 12px;
   font-size: 16px;
   font-weight: 400;
-}
-
-::placeholder {
-  font-size: 16px;
-  font-weight: 400;
-  color: #828282;
-}
-
-.SmallHead {
-  font-weight: 600;
-  font-size: 24px;
-  color: #000000;
-  margin-bottom: -1px;
 }
 
 @media (prefers-color-scheme: light) {
