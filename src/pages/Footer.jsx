@@ -11,7 +11,7 @@ function Footer() {
     return(
         <footer className="absolute flex justify-around bottom-0 left-1 right-0 w-full h-[367px] font-medium text-base leading-9">
             <div className="w-[249px] h-[237px] text-[#616161]">
-                <p className="font-semibold text-2xl text-black -mb-px mb-3">Timber Hub.</p>
+                <p className="font-semibold text-2xl text-black mb-3">Timber Hub.</p>
                 <p className="leading-relaxed mt-4">Worldwide furniture store since 2020. We sell over 1000+ branded products on our website</p>
                 <div className="flex">
                     <FaMapMarkerAlt className="translate-y-2.5"/>
@@ -24,7 +24,7 @@ function Footer() {
                 <p>www.timberhub.com</p>
             </div>
             <div className="w-[104px] h-[229px] text-[#616161]">
-                <p className="font-semibold text-2xl text-black -mb-px mb-3">Menu</p>
+                <p className="font-semibold text-2xl text-black mb-3">Menu</p>
                 <p>Products</p>
                 <p>Rooms</p>
                 <p>Inspirations</p>
@@ -32,14 +32,14 @@ function Footer() {
                 <p>Terms & Policy</p>
             </div>
             <div className="w-[93px] h-[189px] text-[#616161]">
-                <p className="font-semibold text-2xl text-black -mb-px mb-3">Account</p>
+                <p className="font-semibold text-2xl text-black mb-3">Account</p>
                 <p>My Account</p>
                 <p>Checkout</p>
                 <p>My Cart</p>
                 <p>My catalog</p>
             </div>
             <div className="w-[180px] h-[151px] text-[#616161]">
-                <p className="font-semibold text-2xl text-black -mb-px mb-3">Stay Connected</p>
+                <p className="font-semibold text-2xl text-black mb-3">Stay Connected</p>
                 <div className="flex">
                     <FaFacebook className="translate-y-2.5"/>
                     <p className="pl-2"> Facebook</p>
@@ -54,9 +54,9 @@ function Footer() {
                 </div>
             </div>
             <div className="w-[292px] h-[90px] text-[#616161]">
-                <p className="font-semibold text-2xl text-black -mb-px mb-3">Stay Updated</p>
+                <p className="font-semibold text-2xl text-black mb-3">Stay Updated</p>
                 <form className="flex align-middle justify-center mt-6">
-                    <input type="text" placeholder="Enter Your Email" />
+                    <input type="text" placeholder="Enter Your Email" className="w-[242px] h-[45px] bg-[#F4F5F7] indent-3 focus:outline-none"/>
                     <button type="submit" className="bg-[#E89F71] rounded-none w-[45px] h-[45px] ml-[6px]">
                     <PiPaperPlaneTiltFill className="-translate-x-1 scale-150 text-white"/>
                     </button>
